@@ -1,0 +1,9 @@
+tangled.cc
+file_list
+test_list
+test_file_list
+function_list
+type_list
+*.dSYM
+tangle
+*.out
