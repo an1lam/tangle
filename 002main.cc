@@ -1,6 +1,7 @@
 int main(int argc, const char* argv[]) {
   if (flag("test", argc, argv))
     return run_tests();
+  //? Wait, so this wouldn't work if I only ran up to this layer?
   return tangle(argc, argv);
 }
 
