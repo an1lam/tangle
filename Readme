@@ -1,1 +1,10 @@
-Tool to convert Mu's layers into compilable form. See https://en.wikipedia.org/wiki/Literate_programming.
+Example project showing a simple tangle command-line tool for literate
+programming (https://en.wikipedia.org/wiki/Literate_programming).
+
+Tangle is literate programming reimagined with presentation order taking center
+stage. 
+## Usage
+Tangle a list of files filled with a mix of source and directives (see below)
+into a single tangled source file.
+
+

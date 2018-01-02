@@ -3,6 +3,11 @@
 
 set -e  # stop immediately on error
 
+# Argument Parsing
+# Can be called with a layer to only build until:
+#   $ ./build --until 050
+UNTIL_LAYER=${2:-zzz}
+
 ## prologue: environment defaults
 test "$CXX" || export CXX=c++
 test "$CFLAGS" || export CFLAGS="-g -O3"
